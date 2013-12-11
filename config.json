@@ -1,3 +1,8 @@
 {
-    "gitCacheDir": "./git_cache"
+    "gitLocalPrefix": "http://localhost:3000",
+    "gitCacheDir": "./git_cache",
+    "datastore": "nedbDatastore",
+    "nedb": {
+        "datafile": "./db/bower.db"
+    }
 }
